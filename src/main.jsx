@@ -5,8 +5,7 @@ import "./styles.css";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
-	const apiUrl =
-		import.meta?.env?.VITE_SOROBUILD_FLOW_API || "http://localhost:4307";
+	const apiUrl = import.meta.env.VITE_SOROBUILD_FLOW_API;
 	return (
 		<div className="min-h-screen bg-slate-100 px-4 py-6 sm:px-6 lg:px-8">
 			<div className="mx-auto max-w-[1600px]">

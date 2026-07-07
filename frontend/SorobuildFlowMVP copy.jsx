@@ -12,7 +12,7 @@ import {
 } from "iconsax-react";
 
 const DEFAULT_API_URL =
-  import.meta?.env?.VITE_SOROBUILD_FLOW_API || "http://localhost:4307";
+  import.meta.env.VITE_SOROBUILD_FLOW_API;
 
 const GENERATION_STEPS = [
   "Uploading contract",

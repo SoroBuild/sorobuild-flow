@@ -26,7 +26,7 @@ fi
 # git pull origin main
 
 echo "🔧 Creating/Updating systemd service file..."
-tee "$SERVICE_FILE" > /dev/null <<EOF
+sudo tee "$SERVICE_FILE" > /dev/null <<EOF
 [Unit]
 Description=Stellar Sorobuild Flow App
 Requires=docker.service
